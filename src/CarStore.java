@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
+// DRY (Don't Repeat Yourself)
 public class CarStore {
+
 
     private ArrayList<Vehicle> car;
 
@@ -18,7 +20,7 @@ public class CarStore {
             System.out.println((i + 1) + " " + car.get(i));
         }
     }
-
+    // Принцип открытости/закрытости (OCP) - класс может расширяться новыми функциями без изменения существующих
     public Vehicle buyCar(int index) {
         if (index >= 0 && index < car.size()) {
             return car.remove(index);

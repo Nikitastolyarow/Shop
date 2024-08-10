@@ -1,6 +1,7 @@
 
 public abstract class AbstractVehicle implements Vehicle {
 
+    // Абстрактный класс для автомобилей - применение принципа подстановки Барбары Лисков (LSP)
     private String model;
     private double price;
 

@@ -3,3 +3,4 @@ public class Sedan extends AbstractVehicle {
         super("Седан", PricesCar.SEDAN_PRICE);
     }
 }
+// Реализация класса легкового автомобиля с учетом принципа единственной ответственности (SRP)
